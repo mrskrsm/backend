@@ -11,7 +11,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      surename: {
+      surname: {
         type: Sequelize.STRING
       },
       name: {

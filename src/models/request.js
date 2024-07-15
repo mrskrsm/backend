@@ -17,8 +17,8 @@ module.exports = (sequelize, DataTypes) => {
     student_id: DataTypes.INTEGER,
     professor_id: DataTypes.INTEGER,
     description: DataTypes.TEXT,
-    dateRequested: DataTypes.DATEONLY,
-    timeRequsted: DataTypes.TIME,
+    date_requested: DataTypes.DATEONLY,
+    time_requsted: DataTypes.TIME,
   }, {
     sequelize,
     modelName: 'request',

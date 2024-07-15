@@ -1,0 +1,12 @@
+@url = http://localhost:3000/api/request
+
+POST {{url}}/insert
+Content-Type: application/json
+
+{
+  "student_id": 1,
+  "professor_id": 1,
+  "description": "swaws",
+  "date_requested": "2024-07-01",
+  "time_requested": "12:30:00"
+}

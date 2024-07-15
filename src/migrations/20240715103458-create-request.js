@@ -26,10 +26,10 @@ module.exports = {
       description: {
         type: Sequelize.TEXT
       },
-      dateRequested: {
+      date_requested: {
         type: Sequelize.DATEONLY
       },
-      timeRequsted: {
+      time_requsted: {
         type: Sequelize.TIME
       },
       createdAt: {

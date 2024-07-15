@@ -2,7 +2,11 @@ request = require('../models').request
 
 module.exports = {
   index(req, res) {
-    request.findAll()
+    request.findAll({
+      where: {
+        approved: null
+      }
+    })
       .then((requests) => {
         res.status(200).json(requests)
       })

@@ -16,7 +16,8 @@ app.get('/', (req, res) => {
 // ENDPOINTS
 app.get     ('/api/students', student.index)
 
-app.post    ('/api/request/insert', request.insert)
+app.get     ('/api/requests', request.index)
+app.post    ('/api/requests/insert', request.insert)
 
 app.listen(PORT, () => {
   models.sequelize

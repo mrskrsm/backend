@@ -21,8 +21,22 @@ module.exports = {
       })
   },
 
+  update(req, res) {
+    request.save(req.body, {
+      where: {
+        id: req.params.id
+      }
+    })
+      .then((updatedRequest) => {
+        res.status(200).json(updatedRequest)
+      })
+      .catch((error) => {
+        res.status(500).json(error)
+      })
+  },
+
   delete(req, res) {
-    request.destroy({ where: { id: req.body.id }})
+    request.destroy({ where: { id: req.params.id }})
       .then((deletedRequest) => {
         res.status(200).json(deletedRequest)
       })

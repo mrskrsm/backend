@@ -18,6 +18,7 @@ app.get     ('/api/students', student.index)
 
 app.get     ('/api/requests', request.index)
 app.post    ('/api/requests/insert', request.insert)
+app.put     ('/api/requests/update', request.update)
 app.delete  ('/api/requests/delete', request.delete)
 
 app.listen(PORT, () => {

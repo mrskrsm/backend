@@ -37,7 +37,7 @@ module.exports = {
       }
     });
 
-    await queryInterface.bulkInsert([
+    /* await queryInterface.bulkInsert([
       {
           fullname: "Alessandro Rossi",
           major: "Fisica",
@@ -88,7 +88,7 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date()
       }]
-    )
+    ) */
   },
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('professors');

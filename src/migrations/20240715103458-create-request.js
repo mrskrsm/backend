@@ -29,7 +29,7 @@ module.exports = {
       date_requested: {
         type: Sequelize.DATEONLY
       },
-      time_requsted: {
+      time_requested: {
         type: Sequelize.TIME
       },
       createdAt: {

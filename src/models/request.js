@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     professor_id: DataTypes.INTEGER,
     description: DataTypes.TEXT,
     date_requested: DataTypes.DATEONLY,
-    time_requsted: DataTypes.TIME,
+    time_requested: DataTypes.TIME,
   }, {
     sequelize,
     modelName: 'request',

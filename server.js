@@ -19,7 +19,7 @@ app.get     ('/api/students', student.index)
 app.get     ('/api/requests', request.index)
 app.post    ('/api/requests/insert', request.insert)
 app.put     ('/api/requests/update/:id', request.update)
-app.delete  ('/api/requests/delete/:id', request.delete)
+app.delete  ('/api/requests/delete/?id=:id', request.delete)
 
 app.listen(PORT, () => {
   models.sequelize

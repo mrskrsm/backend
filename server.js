@@ -1,5 +1,6 @@
 require('dotenv').config()
 const express = require('express')
+const cors = require('cors')
 const models = require('./src/models')
 const request = require('./src/controllers/requests')
 const student = require('./src/controllers/students')
@@ -8,9 +9,10 @@ const PORT = process.env.SERVER_PORT
 
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 app.get('/', (req, res) => {
-  res.send('hiiiii')
+  res.send('hello')
 })
 
 // ENDPOINTS

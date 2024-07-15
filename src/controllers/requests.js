@@ -22,7 +22,11 @@ module.exports = {
   },
 
   update(req, res) {
-    request.save(req.body, {
+    request.update(
+      { 
+        approved: req.body.approved
+      },
+      {
       where: {
         id: req.params.id
       }

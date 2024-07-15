@@ -19,5 +19,16 @@ module.exports = {
       .catch((error) => {
         res.status(500).json(error)
       })
+  },
+
+  delete(req, res) {
+    request.destroy({ where: { id: req.body.id }})
+      .then((deletedRequest) => {
+        res.status(200).json(deletedRequest)
+      })
+      .catch((error) => {
+        res.status(500).json(error)
+      })
+
   }
 }

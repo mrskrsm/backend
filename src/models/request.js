@@ -19,6 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.TEXT,
     date_requested: DataTypes.DATEONLY,
     time_requested: DataTypes.TIME,
+    approved: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'request',

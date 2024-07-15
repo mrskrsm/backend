@@ -39,7 +39,7 @@ module.exports = {
 
     await queryInterface.bulkInsert('students', [
       {
-        surename: "Foà",
+        surname: "Foà",
         name: "Sabatino",
         date_birth: "2003-11-14",
         email: "sabatino.foà@libero.it",
@@ -49,7 +49,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Boccioni",
+        surname: "Boccioni",
         name: "Silvio",
         date_birth: "2003-08-08",
         email: "silvio.boccioni@tim.it",
@@ -59,7 +59,7 @@ module.exports = {
         updatedAt: new Date(),
       },
       {
-        surename: "Martucci",
+        surname: "Martucci",
         name: "Ernesto",
         date_birth: "2006-04-05",
         email: "ernesto.martucci@poste.it",
@@ -69,7 +69,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Trapanese",
+        surname: "Trapanese",
         name: "Marcella",
         date_birth: "2006-02-28",
         email: "marcella.trapanese@vodafone.it",
@@ -79,7 +79,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Grifeo",
+        surname: "Grifeo",
         name: "Dolores",
         date_birth: "2005-02-10",
         email: "dolores.grifeo@fastwebnet.it",
@@ -89,7 +89,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Ajello",
+        surname: "Ajello",
         name: "Vincenza",
         date_birth: "2004-05-02",
         email: "vincenza.ajello@libero.it",
@@ -99,7 +99,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Bevilacqua",
+        surname: "Bevilacqua",
         name: "Mauro",
         date_birth: "2005-02-13",
         email: "mauro.bevilacqua@tiscali.it",
@@ -109,7 +109,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Meucci",
+        surname: "Meucci",
         name: "Valentina",
         date_birth: "2004-09-19",
         email: "valentina.meucci@tin.it",
@@ -119,7 +119,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Pometta",
+        surname: "Pometta",
         name: "Gaspare",
         date_birth: "2005-03-17",
         email: "gaspare.pometta@hotmail.it",
@@ -129,7 +129,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Gussoni",
+        surname: "Gussoni",
         name: "Eraldo",
         date_birth: "2003-12-20",
         email: "eraldo.gussoni@tele2.it",
@@ -139,7 +139,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Caboto",
+        surname: "Caboto",
         name: "Antonietta",
         date_birth: "2005-12-24",
         email: "antonietta.caboto@live.com",
@@ -149,7 +149,7 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        surename: "Valier",
+        surname: "Valier",
         name: "Amleto",
         date_birth: "2005-05-19",
         email: "amleto.valier@yahoo.com",

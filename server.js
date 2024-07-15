@@ -2,6 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const models = require('./src/models')
 const request = require('./src/controllers/requests')
+const student = require('./src/controllers/students')
 
 const PORT = process.env.SERVER_PORT
 
@@ -13,7 +14,9 @@ app.get('/', (req, res) => {
 })
 
 // ENDPOINTS
-app.post('/api/request/insert', request.insert)
+app.get     ('/api/students', student.index)
+
+app.post    ('/api/request/insert', request.insert)
 
 app.listen(PORT, () => {
   models.sequelize

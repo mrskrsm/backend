@@ -1,5 +1,3 @@
-const studentsList = require('./studentsList');
-
 'use strict';
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {

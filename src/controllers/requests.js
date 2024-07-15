@@ -6,5 +6,8 @@ module.exports = {
       .then((newRequest) => {
         res.status(200).json(newRequest)
       })
+      .catch((error) => {
+        res.status(500).json(error)
+      })
   }
 }

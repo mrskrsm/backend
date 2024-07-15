@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
 })
 
 // ENDPOINTS
-
 app.post('/api/request/insert', request.insert)
 
 app.listen(PORT, () => {
